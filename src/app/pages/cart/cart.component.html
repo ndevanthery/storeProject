@@ -83,9 +83,19 @@
         mat-cell
         *matCellDef="let element"
       >
-        <button mat-icon-button><mat-icon>remove</mat-icon></button>
+        <button
+          mat-icon-button
+          (click)="onRemoveQuantity(element)"
+        >
+          <mat-icon>remove</mat-icon>
+        </button>
         <span>{{ element.quantity }}</span>
-        <button mat-icon-button><mat-icon>add</mat-icon></button>
+        <button
+          mat-icon-button
+          (click)="onAddQuantity(element)"
+        >
+          <mat-icon>add</mat-icon>
+        </button>
       </td>
       <td
         mat-footer-cell
@@ -123,6 +133,7 @@
           mat-raised-button
           color="warn"
           class="float-right"
+          (click)="onClearCard()"
         >
           Clear all
         </button>
@@ -135,6 +146,7 @@
           mat-mini-fab
           color="warn"
           class="float-right"
+          (click)="onRemoveFromCart(element)"
         >
           <mat-icon>close</mat-icon>
         </button>
