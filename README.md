@@ -17,8 +17,9 @@ This project is a fake online store application developed using Angular for the 
 The fake online store project was developed using Angular for the front-end, Tailwind CSS for styling, and the Fakeshop API to retrieve product information. The application also utilizes Stripe for processing payments and is deployed on a local server using Node.js.
 
 ## How to Use
-
-go to https://ndevanthery.github.io/storeProject/home to test it !
+to use the checkout functionnality, you need to deploy the NodeJs server on your machine. 
+to do so, clone the repository, then open a terminal and do the command ```node .\server\server.js``` from the root of the project.
+now that the Stripe server is up, you can go to https://ndevanthery.github.io/storeProject/home to test everything !
 
 ## Conclusion
 
