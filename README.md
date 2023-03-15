@@ -1,27 +1,25 @@
-# StoreProject
+# Fake Store Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+## Overview
 
-## Development server
+This project is a fake online store application developed using Angular for the front-end, Tailwind CSS for styling, and the Fakeshop API to retrieve fake product information. The application also utilizes Stripe for processing payments and is deployed on a local server using Node.js.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+* Product Catalog - Users can browse and search for products available in the store. The product catalog displays the product name, description, price, and image.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Shopping Cart - Users can add items to their cart, view their cart, and checkout using Stripe to process payments.
 
-## Build
+* Order History - Users can view their order history and track the status of their orders.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+The fake online store project was developed using Angular for the front-end, Tailwind CSS for styling, and the Fakeshop API to retrieve product information. The application also utilizes Stripe for processing payments and is deployed on a local server using Node.js.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## How to Use
 
-## Running end-to-end tests
+go to https://ndevanthery.github.io/storeProject/home to test it !
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Conclusion
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Overall, the fake online store project is a useful tool for learning how to develop e-commerce applications using Angular, Tailwind CSS, and the Stripe API. The application provides basic shopping cart and order management functionality, and could be expanded upon to create a more complete e-commerce solution.
